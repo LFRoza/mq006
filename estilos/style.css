@@ -22,7 +22,6 @@ section#login{
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: white;
@@ -33,6 +32,7 @@ section#login{
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 div#imagem{
@@ -53,6 +53,7 @@ div#form h1{
 }
 
 div#form p{
+    padding: 2px;
     color: rgba(0, 0, 0, 0.500);
 }
 
@@ -60,11 +61,14 @@ input{
     padding: 5px;
     border:.2px solid rgba(0, 0, 0, 0.500);
     border-radius: 5px;
+    transform: translateY(-6px);
 }
 
 .campo{
     padding:2px;
 }
+
+div.campo span{}
 
 input[type=submit]{
     display: block;
@@ -83,7 +87,7 @@ input[type=submit]:hover{
 }
 
 a.botao{
-    margin: 5px auto;
+    margin: 0px auto;
     display: block;
     width: 85%;
     height: 40px;
@@ -92,6 +96,10 @@ a.botao{
     border: 1px solid #49a09d;
     border-radius: 5px;
     text-decoration: none;
+}
+
+a.botao span{
+    transform: translateY(5px);
 }
 
 a.botao:hover{

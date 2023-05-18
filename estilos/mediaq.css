@@ -8,7 +8,7 @@ Desktop: de 1024 até 1600
 TV: acima de 1600
 */
 
-@media screen  and (min-width: 812px) and (max-width: 1024px) {
+@media screen  and (min-width: 812px) and (max-width: 1240px) {
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
